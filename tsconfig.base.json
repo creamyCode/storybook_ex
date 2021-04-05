@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@test-app/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@test-app/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@wins/material-ui": ["libs/material-ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

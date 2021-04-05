@@ -1,0 +1,17 @@
+<div *ngIf="tooltip" class="tooltip-icon">
+    i
+    <div class="tooltip-contents">{{tooltip}}</div>
+</div>
+<mat-form-field>
+    <mat-label>{{label}}</mat-label>
+    <input 
+        matInput    
+        [type]="type"  
+        [placeholder]="placeholder" 
+        [required]="required"
+        [readonly]="readonly"
+        [formControl]="form"
+    >
+    <mat-error *ngFor="let msg of errMsgs">{{msg}}</mat-error>
+    <!-- <mat-error>ㅁㄹㅁㄹㅁㄹ</mat-error> -->
+</mat-form-field>
